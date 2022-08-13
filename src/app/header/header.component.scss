@@ -1,4 +1,5 @@
-.user-actions {
+.menu,
+.navigation {
   width: 42px;
   height: 42px;
   -ms-border-radius: 10px;
@@ -8,7 +9,6 @@
   border-radius: 10px;
   border: 1px solid #eceef5;
   background: rgba(255, 255, 255, 1);
-  display: inline-block;
 
   .icon {
     width: 32px;
@@ -18,7 +18,6 @@
     font-size: 18px;
     text-align: center;
     color: #8083A3;
-    display: inline-block;
 
     .icon-img {
       position: relative;
@@ -26,4 +25,31 @@
       left: 2px;
     }
   }
+}
+
+.title {
+  margin-left: -24px;
+  overflow: hidden;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 32px;
+  margin-top: 5px;
+  color: #1A1B1C;
+}
+
+.arrows {
+  .pad-l-30 {
+    padding-left: 30px;
+  }
+}
+
+.header {
+  border-bottom: 1px solid #ECEEF5;
+  padding-bottom: 20px;
+}
+
+.menu-holder {
+  margin-left: 10px;
 }

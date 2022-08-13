@@ -1,0 +1,58 @@
+<!-- {{ user.name }}
+{{ user.companyName }} -->
+
+
+<div class="row user-profile">
+  <div class="col-10 offset-2 profile-head">
+    <div class="row">
+      <div class="col-3 profile-img">
+        <img class="img-fluid" [src]="user.avatar" [alt]="user.name">
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <div class="col-12 user-name">{{ user.name }}</div>
+          <div class="col-12 user-company">{{ user.companyName }}</div>
+          <div class="col-12 mt-3">
+            <div class="message-btn-container">
+              <button class="btn btn-primary message-btn">
+                <div class="icon">
+                  <img class="icon-img" src="../../assets/img/Message.png" alt="">
+                </div>
+                Message
+              </button>
+            </div>
+            <div class="user-actions-container">
+              <div class="user-actions">
+                <div class="icon">
+                  <img class="icon-img" src="../../assets/img/Call.png" alt="">
+                </div>
+              </div>
+              <div class="user-actions">
+                <div class="icon">
+                  <img class="icon-img" src="../../assets/img/Upload.png" alt="">
+                </div>
+              </div>
+              <div class="user-actions">
+                <div class="icon">
+                  <img class="icon-img" src="../../assets/img/Three-Dots.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 mt-4">
+    <div class="row">
+      <div class="col-2 header">TITLE</div>
+      <div class="col-10 description">{{ user.jobTitle }}</div>
+    </div>
+  </div>
+  <div class="col-12 mt-3">
+    <div class="row">
+      <div class="col-2 header">EMAIL</div>
+      <div class="col-10 description">{{ user.email }}</div>
+    </div>
+  </div>
+</div>

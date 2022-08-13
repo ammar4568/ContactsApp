@@ -1,0 +1,3 @@
+<div class="col-12 user-list-item mt-2" *ngFor="let user of users" (click)="loadUser(user)">
+  <app-user-list-item [user]="user"></app-user-list-item>
+</div>

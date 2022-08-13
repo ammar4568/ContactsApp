@@ -1,0 +1,30 @@
+.user-profile {
+  .user-img {
+    width: 38px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 18px;
+  }
+
+  .user-name {
+    overflow: hidden;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 21px;
+    color: #1A1B1C;
+  }
+
+  .user-company-name {
+    overflow: hidden;
+    font-family: Lato;
+    font-size: 14px;
+    text-align: left;
+    line-height: 21px;
+    color: #8083A3;
+  }
+
+
+
+}

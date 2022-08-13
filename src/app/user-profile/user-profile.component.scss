@@ -1,0 +1,77 @@
+.user-profile {
+  margin-top: 50px;
+
+  .profile-img {
+    img {
+      border-radius: 20px;
+      width: 114px;
+      height: 114px;
+      margin: 0px;
+      border: none;
+      padding: 0px;
+    }
+  }
+
+  .user-name {
+    overflow: hidden;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 32px;
+    margin-top: -4px;
+    color: #1A1B1C;
+  }
+
+  .user-company {
+    overflow: hidden;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+    color: #8083A3;
+  }
+
+  .message-btn-container {
+    display: inline-block;
+
+    .message-btn {
+      margin-top: -13px;
+      background-color: rgba(107, 89, 204, 1);
+
+      .icon {
+        display: inline;
+
+        img {
+          color: #FFF;
+        }
+      }
+    }
+  }
+
+  .user-actions-container {
+    display: inline-block;
+
+    .user-actions {
+      margin-left: 10px;
+    }
+  }
+
+  .header {
+    overflow: hidden;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: right;
+    line-height: 21px;
+    color: #8083A3;
+  }
+
+  .description {
+    overflow: hidden;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+    color: #1A1B1C;
+  }
+}
